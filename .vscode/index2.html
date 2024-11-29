@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzorino - The Krabby Pizza Experts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #d35400;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .logo {
+            font-size: 2.5em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .presentation img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .recipes {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .recipe {
+            background: #ffe5d4;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .contact-form input, .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Pizzorino 🍕</div>
+    <nav>
+        <a href="#presentation">Home</a>
+        <a href="#about">About</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="presentation" class="presentation">
+    <h1>Welcome to Pizzorino</h1>
+    <p>At Pizzorino, we create the most delicious Krabby Pizzas that will leave you wanting more. Join us for a culinary adventure filled with fresh ingredients and bold flavors.</p>
+    <img src="your-image-path.jpg" alt="Delicious pizza">
+</section>
+
+<section id="about" class="about">
+    <h2>About Pizzorino</h2>
+    <p>Pizzorino is more than a pizza shop; it’s a family tradition of excellence and taste. With our expert chefs and friendly staff, we bring you an unforgettable pizza experience.</p>
+    <img src="your-staff-image-path.jpg" alt="Pizzorino staff" style="max-width: 100%; border-radius: 10px;">
+</section>
+
+<section id="recipes" class="recipes">
+    <h2>Our Krabby Pizza Recipes</h2>
+    <div class="recipe">
+        <h3>Classic Krabby</h3>
+        <p>Toppings: Krabby meat, mozzarella, tomato sauce, basil.</p>
+    </div>
+    <div class="recipe">
+        <h3>Cheesy Supreme</h3>
+        <p>Toppings: Krabby meat, triple cheese blend, caramelized onions, oregano.</p>
+    </div>
+    <div class="recipe">
+        <h3>Spicy Krabby</h3>
+        <p>Toppings: Krabby meat, jalapeños, spicy tomato sauce, chili flakes.</p>
+    </div>
+    <div class="recipe">
+        <h3>Veggie Delight</h3>
+        <p>Toppings: Krabby meat, mushrooms, bell peppers, black olives.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact-form">
+    <h2>Contact Pizzorino</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Your Phone Number" required>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Pizzorino | Follow us on <a href="#">Instagram</a>, <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+    <p>Call us: (123) 456-7890</p>
+</footer>
+
+</body>
+</html>

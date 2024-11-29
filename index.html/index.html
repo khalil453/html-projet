@@ -4,22 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
-      <h1>welcome to our pizzarino</h1>
+      
       <img
         src="https://img.freepik.com/premium-vector/pizza-logo_25327-260.jpg"
         alt="pizza logo"
         widht="300px"
         height="300px"
       />
-      <ul>
-        <li><a href="#home">home</a></li>
+      <ul id="page"> 
+        <li><a href="home">home</a></li>
         <li><a href="menu">menu</a></li>
         <li><a href="contacter nous">contacter nous</a></li>
+        <li><a href="about">about</a></li>
       </ul>
     </nav>
+    <section id="home">
+      <h2>welcome to pizzarino</h2>
+      <p>here in pizzarino you will find one of the best pizza in the world</p>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQynx4Ja8bzn0Z68gJasRDEHCSo7k_lNj5HWQ&s"
+        alt="salle d attend"
+      />
+    </section>
+    <section id="menu">
+      <h3>menu</h3>
+      <p>you will found here our menu   </p>
+      <section id="recet">
+        <h4>margaritta </h4>
+        <p>Krabby meat, mozzarella, tomato sauce, basil.</p>  
+      </section id recet>
+      <section id="recet">
+        <h5>viand</h5>
+        <p>Krabby meat, mozzarella, tomato sauce, basil, poulet </p>
+      </section>
+      <section id="recet">
+        <h6>poulet </h6>
+        <p>Krabby meat, mozzarella, tomato sauce, basil,poulet</p>
+      </section >
+      <section id="recet">
+        <h7>vegitarien</h7>
+        <p>ingerdiant: mushrooms, bell peppers, black olives </p>
+      </section>
+    </section>
     <section id="contacter nous">
       <h1>contacter nous</h1>
       <form action="">
@@ -29,7 +59,7 @@
         <label for="email">email</label>
         <input type="email" placeholder="email" /><br />
         <label for="password">password</label>
-        <input type="password" placeholder="password"/><br>
+        <input type="password" placeholder="password" /><br />
         <label for="message">message</label>
         <textarea
           name=""
@@ -37,12 +67,12 @@
           cols="30"
           rows="10"
           placeholder="message"
-          
-        ></textarea><br>
+        ></textarea
+        ><br />
         <label for=""></label>
-        <input type="checkbox" name="" id="" /> <br>
-        <input type="color" name="" id="" /><br>
-        
+        <input type="checkbox" name="" id="" /> <br />
+        <input type="color" name="" id="" /><br />
+
         <button>send</button>
       </form>
     </section>
