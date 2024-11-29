@@ -1,80 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-      
-      <img
-        src="https://img.freepik.com/premium-vector/pizza-logo_25327-260.jpg"
-        alt="pizza logo"
-        widht="300px"
-        height="300px"
-      />
-      <ul id="page"> 
-        <li><a href="home">home</a></li>
-        <li><a href="menu">menu</a></li>
-        <li><a href="contacter nous">contacter nous</a></li>
-        <li><a href="about">about</a></li>
-      </ul>
-    </nav>
-    <section id="home">
-      <h2>welcome to pizzarino</h2>
-      <p>here in pizzarino you will find one of the best pizza in the world</p>
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQynx4Ja8bzn0Z68gJasRDEHCSo7k_lNj5HWQ&s"
-        alt="salle d attend"
-      />
-    </section>
-    <section id="menu">
-      <h3>menu</h3>
-      <p>you will found here our menu   </p>
-      <section id="recet">
-        <h4>margaritta </h4>
-        <p>Krabby meat, mozzarella, tomato sauce, basil.</p>  
-      </section id recet>
-      <section id="recet">
-        <h5>viand</h5>
-        <p>Krabby meat, mozzarella, tomato sauce, basil, poulet </p>
-      </section>
-      <section id="recet">
-        <h6>poulet </h6>
-        <p>Krabby meat, mozzarella, tomato sauce, basil,poulet</p>
-      </section >
-      <section id="recet">
-        <h7>vegitarien</h7>
-        <p>ingerdiant: mushrooms, bell peppers, black olives </p>
-      </section>
-    </section>
-    <section id="contacter nous">
-      <h1>contacter nous</h1>
-      <form action="">
-        <label for="name">name</label>
-        <input type="text" placeholder="name" /><br />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzarino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <img
+      src="https://img.freepik.com/premium-vector/pizza-logo_25327-260.jpg"
+      alt="Pizza logo"
+      width="300"
+      height="300"
+    />
+    <ul id="page">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contacter-nous">Contacter Nous</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
 
-        <label for="email">email</label>
-        <input type="email" placeholder="email" /><br />
-        <label for="password">password</label>
-        <input type="password" placeholder="password" /><br />
-        <label for="message">message</label>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="message"
-        ></textarea
-        ><br />
-        <label for=""></label>
-        <input type="checkbox" name="" id="" /> <br />
-        <input type="color" name="" id="" /><br />
+  <section id="home">
+    <h2>Welcome to Pizzarino</h2>
+    <p>Here in Pizzarino, you will find one of the best pizzas in the world.</p>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQynx4Ja8bzn0Z68gJasRDEHCSo7k_lNj5HWQ&s"
+      alt="Salle d'attente"
+    />
+  </section>
 
-        <button>send</button>
-      </form>
+  <section id="menu">
+    <h3>Menu</h3>
+    <p>You will find here our menu:</p>
+
+    <section id="margaritta">
+      <h4>Margaritta</h4>
+      <p>Krabby meat, mozzarella, tomato sauce, basil.</p>
     </section>
-  </body>
+
+    <section id="viand">
+      <h4>Viande</h4>
+      <p>Krabby meat, mozzarella, tomato sauce, basil, chicken.</p>
+    </section>
+
+    <section id="poulet">
+      <h4>Poulet</h4>
+      <p>Krabby meat, mozzarella, tomato sauce, basil, chicken.</p>
+    </section>
+
+    <section id="vegetarian">
+      <h4>Végétarien</h4>
+      <p>Ingredients: mushrooms, bell peppers, black olives.</p>
+    </section>
+  </section>
+
+  <section id="contacter-nous">
+    <h1>Contacter Nous</h1>
+    <form action="">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Name" /><br />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Email" /><br />
+
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="Password" /><br />
+
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Your message"
+      ></textarea><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
 </html>
